@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>KIT</title>
+		<link rel="stylesheet" href="./web/css/reset.css">
+		<link rel="stylesheet" href="./web/css/rwd-table.css">
+		
+		<script src="./web/js/respond.js.Без названия"></script>
+		<script src="./web/js/jquery.js.Без названия"></script>
+		<script src="./web/js/jquery-ui.widget.min.js.Без названия"></script>
+		<script src="./web/js/rwd-table.js.Без названия"></script>
+	</head>
+	<body>
+		<h1>New Table</h1>
+		<div class="table-menu-wrapper">
+	        <a href="#" class="table-menu-btn">Display</a>
+	        <div class="table-menu table-menu-hidden">
+	            <ul>
+	                <li>
+	                    <input type="checkbox" name="toggle-cols" id="toggle-col-1" value="co-1" checked="checked"> 
+	                    <label for="toggle-col-1">Browser</label>
+	                </li>
+	                <li>
+	                    <input type="checkbox" name="toggle-cols" id="toggle-col-2" value="co-2"> 
+	                    <label for="toggle-col-2">Sessions</label>
+	                </li>
+	                <li>
+	                    <input type="checkbox" name="toggle-cols" id="toggle-col-3" value="co-3" checked="checked"> 
+	                    <label for="toggle-col-3">Percentage</label>
+	                </li>
+	                <li>
+	                    <input type="checkbox" name="toggle-cols" id="toggle-col-4" value="co-4"> 
+	                    <label for="toggle-col-4">New Users</label>
+	                </li>
+	                <li>
+	                    <input type="checkbox" name="toggle-cols" id="toggle-col-5" value="co-5"> 
+	                    <label for="toggle-col-5">Avg. Duration</label>
+	                </li>
+	            </ul>
+	        </div>
+	    </div>
+
+		<table cellspacing="0" id="tech-companies" class="enhanced">
+		  <thead>
+		    <tr>
+		      <th class="persist essential" id="co-0">Browser</th>
+		      <th class="essential" id="co-1">Sessions</th>
+		      <th class="optional" id="co-2" style="display: table-cell;">Percentage</td>
+		      <th class="essential" id="co-3">New Users</th>
+		      <th class="optional" id="co-4" style="display: table-cell;">Avg. Duration</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <th headers="co-0" class="persist essential">Chrome</th>
+		      <td headers="co-1" class="essential">9,562</td>
+		      <td headers="co-2" class="optional" style="display: table-cell;">68.81%</td>
+		      <td headers="co-3" class="essential">7,895</td>
+		      <td headers="co-4" class="optional" style="display: table-cell;">01:07</td>
+		    </tr>
+		    <tr>
+		      <th headers="co-0" class="persist essential">Firefox</th>
+		      <td headers="co-1" class="essential">2,403</td>
+		      <td headers="co-2" class="optional" style="display: table-cell;">17.29%</td>
+		      <td headers="co-3" class="essential">2,046</td>
+		      <td headers="co-4" class="optional" style="display: table-cell;">00:59</td>
+		    </tr>
+		    <tr>
+		      <th headers="co-0" class="persist essential">Safari</th>
+		      <td headers="co-1" class="essential">1,089</td>
+		      <td headers="co-2" class="optional" style="display: table-cell;">2.63%</td>
+		      <td headers="co-3" class="essential">904</td>
+		      <td headers="co-4" class="optional" style="display: table-cell;">00:59</td>
+		    </tr>
+		    <tr>
+		      <th headers="co-0" class="persist essential">Internet Explorer</th>
+		      <td headers="co-1" class="essential">366</td>
+		      <td headers="co-2" class="optional" style="display: table-cell;">2.63%</td>
+		      <td headers="co-3" class="essential">333</td>
+		      <td headers="co-4" class="optional" style="display: table-cell;">01:01</td>
+		    </tr>
+		    <tr>
+		      <th headers="co-0" class="persist essential">Safari (in-app)</th>
+		      <td headers="co-1" class="essential">162</td>
+		      <td headers="co-2" class="optional" style="display: table-cell;">1.17%</td>
+		      <td headers="co-3" class="essential">112</td>
+		      <td headers="co-4" class="optional" style="display: table-cell;">00:58</td>
+		    </tr>
+		    <tr>
+		      <th headers="co-0" class="persist essential">Opera</th>
+		      <td headers="co-1" class="essential">103</td>
+		      <td headers="co-2" class="optional" style="display: table-cell;">0.74%</td>
+		      <td headers="co-3" class="essential">87</td>
+		      <td headers="co-4" class="optional" style="display: table-cell;">01:22</td>
+		    </tr>
+		    <tr>
+		      <th headers="co-0" class="persist essential">Edge</th>
+		      <td headers="co-1" class="essential">98</td>
+		      <td headers="co-2" class="optional" style="display: table-cell;">0.71%</td>
+		      <td headers="co-3" class="essential">69</td>
+		      <td headers="co-4" class="optional" style="display: table-cell;">01:18</td>
+		    </tr>
+		    <tr>
+		      <th headers="co-0" class="persist essential">Other</th>
+		      <td headers="co-1" class="essential">275</td>
+		      <td headers="co-2" class="optional" style="display: table-cell;">6.02%</td>
+		      <td headers="co-3" class="essential">90</td>
+		      <td headers="co-4" class="optional" style="display: table-cell;">N/A</td>
+		    </tr>
+		  </tbody>
+		</table>
+	</body>
+</html>
